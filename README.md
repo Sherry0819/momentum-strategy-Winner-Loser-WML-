@@ -1,7 +1,5 @@
 # Asset Pricing Mini‑Suite: Efficient Frontier + Industry Momentum + Accrual Factor
 
-A clean, GitHub‑ready refactor of a class assignment into a **reproducible asset pricing project**.
-
 ## What’s inside
 
 ### Part I — Mean‑Variance Efficient Frontier (12 Industries)
