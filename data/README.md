@@ -1,27 +1,22 @@
-# Data
+Data
 
-This repo is designed to be **reproducible without uploading proprietary datasets**.
+This repository is intentionally structured to be fully reproducible without redistributing proprietary or licensed datasets. All data inputs are expected to be obtained independently by the user.
 
-## Part I & II (Industry Portfolios)
-You need the Ken French 12-industry monthly returns Excel file used in class (often named something like `industry_returns.xlsx`).
+Part I & II — Industry Portfolios
 
-Place it here:
+Parts I and II rely on the monthly returns of the 12 Ken French industry portfolios, which are commonly used in academic asset pricing research and were provided as part of the course materials.
 
-```
+Please place the Excel file (e.g. industry_returns.xlsx) in the following directory:
+
 data/raw/industry_returns.xlsx
-```
 
-> Do **not** commit the full data file if your course policy restricts redistribution.  
-> If it is allowed, you may commit it; otherwise keep it local.
+Part III — Accrual Factor
 
-## Part III (Accrual Factor)
-Part III in the original assignment typically uses **WRDS/CRSP/Compustat**-derived exports (often proprietary).
+Part III requires firm-level accounting and return data derived from WRDS / CRSP / Compustat, which are typically subject to institutional licensing restrictions.
 
-Place your course exports here:
+If you have access to these datasets (e.g. via a university subscription), place the processed course exports here:
 
-```
 data/raw/AS2P3_1.csv
 data/raw/accrual_rate.csv
-```
 
-You can still run Part I/II without Part III.
+Note: Part III is optional. All analyses in Parts I and II can be executed independently without access to proprietary data.
