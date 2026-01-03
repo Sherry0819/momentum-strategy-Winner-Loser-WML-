@@ -62,9 +62,3 @@ To include Part III (if you have the CSVs):
 ```bash
 python run.py --run_accrual
 ```
-
----
-
-## Repo notes (for clean GitHub presentation)
-- **Do not commit proprietary data** (WRDS/CRSP/Compustat exports).
-- Keep notebooks minimal; the “real” work is in `src/` + `run.py`.
